@@ -1,0 +1,55 @@
+body {
+    background-color: greenyellow;
+}
+
+h1 {
+    background-color: slateblue;
+    color: deeppink;
+    padding-left: 110px;
+    font-family: 'Special Elite', fantasy;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px rgb(198, 241, 6);}
+    to{box-shadow: 1px 1px 38px rgb(12, 223, 135);}
+}
+
+p {
+    font-size: 25px;
+    padding-top: 10px;
+    font-family: 'Special Elite', fantasy;
+}
+
+#score {
+    margin-left: 30px;
+    font-size: 25px;
+    background-color: aqua;
+    border-radius: 10px;
+    color: rgb(231, 18, 238);
+    border: 5px solid aqua;
+    font-family: 'Special Elite', fantasy;
+}
+
+#timer {
+    float: right;
+    margin-right: 30px;
+    font-size: 25px;
+    background-color: aqua;
+    border-radius: 10px;
+    color: rgb(231, 18, 238);
+    border: 5px solid aqua;
+    font-family: 'Special Elite', fantasy;
+}
